@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registro de Advertências</title>
+</head>
+<body>
+    <main>
+        <h1>Registro de advertências</h1>
+        <form>
+            <input id="date" type="date" placeholder="Data"> <br>
+            <input id="professor" type="text" placeholder="Nome do Professor"> <br>
+            <input id="disciplina" type="text" placeholder="Disciplina"> <br>
+            <select id="aula">
+                <option value="1">
+                    1ª aula
+                </option> <br>
+                <option value="2">
+                    2ª aula
+                </option> <br>
+                <option value="3">
+                    3ª aula
+                </option> <br>
+                <option value="4">
+                    4ª aula
+                </option> <br>
+                <option value="5">
+                    5ª aula
+                </option> <br>
+                <option value="6">
+                    6ª aula
+                </option> <br>
+            </select> <br>
+            <input id="codigo" type="number" placeholder="Código da advertência" min="1" max="24"> <br>
+            <input id="alunos" type="text" placeholder="Número do aluno"> <br><br>
+            <button id="add-warning-btn" type="button">Adicionar advertência(s)</button> <br><br>
+            <ul id="warning-list"></ul>
+        </form>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
